@@ -2,6 +2,7 @@
 include:
   - board: nice_nano_v2
     shield: corne_left
+    cmake-args: -DCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y -DCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY=y
   - board: nice_nano_v2
     shield: corne_right
   - board: nice_nano_v2
